@@ -10,14 +10,14 @@ module.exports = {
     // ONLY EDIT SETTINGS BELOW
     
     // ===== BOT CORE SETTINGS =====
-    SESSION_ID: process.env.SESSION_ID || "",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "SUBZERO-MD~LSVH4HlFlpShYu894QpL",  // Your bot's session ID (keep it secure)
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")    BOT_NAME: process.env.BOT_NAME || "SUBZERO-MD",  // Bot's display name
-    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "SUBZERO-MD",  // Bot's display name
+    BOT_NAME: process.env.BOT_NAME || getConfig("BOT_NAME") || "Mr Hassan",  // Bot's display name
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
     
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "263719647303",  // Owner's WhatsApp number
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Mr Frank",           // Owner's name   DEV: process.env.DEV || "263719647303",                     // Developer's contact number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "923030270536",  // Owner's WhatsApp number
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "Mr Hassan",           // Owner's name   DEV: process.env.DEV || "263719647303",                     // Developer's contact number
     DEVELOPER_NUMBER: '263719647303@s.whatsapp.net',            // Developer's WhatsApp ID
 
     // ===== AUTO-RESPONSE SETTINGS =====
@@ -28,16 +28,16 @@ module.exports = {
 
     // ===== REACTION & STICKER SETTINGS =====
     AUTO_REACT: process.env.AUTO_REACT || "false",              // Auto-react to messages?
-    CUSTOM_REACT: process.env.CUSTOM_REACT || "false",          // Use custom emoji reactions?
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",  // Custom reaction emojis
-    STICKER_NAME: process.env.STICKER_NAME || "SUBZERO-MD",     // Sticker pack name
+    CUSTOM_REACT: process.env.CUSTOM_REACT || "true",          // Use custom emoji reactions?
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🥰,😍,😘,😌,🫀,👀,👑,🌹,🌼,🌸,🌺,🥀,♥️,💯,💟,💝,💘,💖,💗,💓,💞,💕,🖤,🩶,🤍,🤎,💔,❤‍🔥,❤‍🩹,❣️,💜,💙,🩵,💚,💛,🧡,❤️,🩷",  // Custom reaction emojis
+    STICKER_NAME: process.env.STICKER_NAME || "Mr Hassan",     // Sticker pack name
     AUTO_STICKER: process.env.AUTO_STICKER || "false",          // Auto-send stickers?
     HEART_REACT: process.env.HEART_REACT || "false",
     OWNER_REACT: process.env.OWNER_REACT || "false",
     
     // ===== MEDIA & AUTOMATION =====
     AUTO_VOICE: process.env.AUTO_VOICE || "false",              // Auto-send voice messages?
-    AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
+    AUTO_RECORDING: process.env.AUTO_RECORDING || "true",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     BOT_IMAGE: getConfig("BOT_IMAGE") || "https://i.postimg.cc/XNTmcqZ3/subzero-menu.png",  // Bot's "alive" image
 
@@ -47,8 +47,8 @@ module.exports = {
     ANTI_VV: process.env.ANTI_VV || "true",                     // Block view-once messages?
     DELETE_LINKS: process.env.DELETE_LINKS || "true",          // Auto-delete links?
     ANTI_DEL_PATH: process.env.ANTI_DEL_PATH || "log",          // Log deleted messages (or 'same' to resend)
-    ANTI_BOT: process.env.ANTI_BOT || "true",
-    PM_BLOCKER: process.env.PM_BLOCKER || "true",
+    ANTI_BOT: process.env.ANTI_BOT || "false",
+    PM_BLOCKER: process.env.PM_BLOCKER || "false",
 
     // ===== BOT BEHAVIOR & APPEARANCE =====
     FOOTER: process.env.FOOTER || "*© Gᴇɴᴇʀᴀᴛᴇᴅ ʙʏ Sᴜʙᴢᴇʀᴏ*",  // Bot description
@@ -57,7 +57,7 @@ module.exports = {
     AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true", // React to status updates?
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true", // VIEW to status updates?
     AUTO_BIO: process.env.AUTO_BIO || "false",
-    WELCOME_GOODBYE: process.env.WELCOME_GOODBYE || "true",
+    WELCOME_GOODBYE: process.env.WELCOME_GOODBYE || "false",
     AMDIN_EVENTS: process.env.ADMIN_EVENTS || "true",
     REPO: process.env.REPO || "https://github.com/mrfrankofcc/SUBZERO-MD",  // Bot's GitHub repo
     BAILEYS: process.env.BAILEYS || "@shizodevs/baileys",  // Subzero Bot's BAILEYS
